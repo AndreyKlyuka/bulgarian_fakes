@@ -1,0 +1,12 @@
+.position__margin-middle-column{
+    margin-top: calc(var(--heading-main-height) + var(--heading-main-margin-bottom));
+}
+
+.position__middle-column-text-height{
+    height:calc(var(--text-height));
+    margin-bottom: var(--text-margin-bottom);
+}
+
+.position__third-column-margin-image{
+    margin-top: var(--third-column-image-margin-top);
+}

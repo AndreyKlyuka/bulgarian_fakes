@@ -1,0 +1,37 @@
+.image__cover{
+    object-fit: cover;
+}
+
+.image__grayscale {
+    filter: grayscale(100%);
+}
+
+.image__newspaper{
+    width: 398px;
+    height: 201.75px;
+}
+
+.image__internet{
+    width: 398px;
+    height: 428px;
+}
+
+.image__fake-image{
+    width: 398px;
+    height: 237.51px;
+    margin-top: 192px
+}
+
+.image__searching-in-archives{
+    width: 398px;
+    height: 215px;
+    margin-bottom: 154px
+}
+
+.image__browser_plugins{
+    width: 398px;
+    height: 540px;
+    margin-top: 100px;
+    margin-bottom: 40px
+}
+

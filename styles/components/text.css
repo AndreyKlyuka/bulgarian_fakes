@@ -1,0 +1,22 @@
+.text-roboto-medium {
+    font-family: var(--font-roboto), serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: var(--text);
+}
+
+.text-roboto-small {
+    font-family: var(--font-roboto), serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--text);
+}
+
+
+.accent-text{
+    color: var(--accent);
+}

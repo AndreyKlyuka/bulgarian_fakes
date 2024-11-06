@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!--fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+		<!--styles-->
+		<link rel="stylesheet" href="styles/reset.css">
+		<link rel="stylesheet" href="styles/index.css">
+
+		<title>Fakes</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<header class="header">
+					<nav class="header__nav">
+						<ul class="header__menu columns">
+							<li class="header__menu-element header__menu-element_active column">Начална страница</li>
+							<li class="header__menu-element column">
+								<a href="blog.html">Блог</a>
+							</li>
+							<li class="header__menu-element column">
+								<a href="manipulations.html">Манипулации</a>
+							</li>
+						</ul>
+					</nav>
+				</header>
+				<main>
+					<section class="section section__what-is-fake">
+						<div class="columns">
+							<div class="column">
+								<h2 class="section__heading_main">Что значит <span class="accent-text">«Фейк»?</span></h2>
+								<p class="text-roboto-medium">Фейк — това е невярна или измислена информация, разпространявана като истина. Важно е да се различават фейковете от реалните новини, защото те могат да подвеждат хората и да предизвикват ненужни паники или заблуди.</p>
+							</div>
+							<div class="column">
+								<div class="position__margin-middle-column">
+									<p class="text-roboto-medium position__middle-column-text-height">Източници на фейкове могат да бъдат масмедиите, социалните мрежи и други онлайн платформи.</p>
+								</div>
+								<div>
+									<img class="image__cover image__grayscale image__newspaper"  src="resources/images/newspaper.png" alt="black and white newspaper">
+								</div>
+							</div>
+							<div class="column">
+								<div class="position__third-column-margin-image" >
+									<img class="image__cover image__internet" src="resources/images/internet.png" alt="red internet street sign">
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="section section__manipulation">
+						<div class="section__heading-wrapper">
+							<h3 class="section__heading">Как могат да ви манипулират?</h3>
+						</div>
+						<div class="columns">
+							<div class="column">
+								<div class="card">
+									<div class="card__icon">
+										<img src="resources/ui/picture.svg" alt="vector picture">
+									</div>
+									<div class="card__title card__title_high">Как могат да ви манипулират?</div>
+									<div class="card__text">Манипулаторът използва вашите емоции, за да повлияе на вашите решения и действия, като ви кара да изпитвате вина, страх или съчувствие. Например, някой може да преувеличи проблемите си, за да се съгласите да му помогнете, дори ако това ви навреди.</div>
+								</div>
+							</div>
+							<div class="column">
+								<div class="card">
+									<div class="card__icon">
+										<img src="resources/ui/picture.svg" alt="vector picture">
+									</div>
+									<div class="card__title card__title_high">Изкривяване на информацията</div>
+									<div class="card__text">Манипулаторът предоставя невярна или частично вярна информация, за да ви насочи в посоката, която му е изгодна. Например, на работа колега може да преувеличи трудностите на проект, за да се съгласите да поемете допълнителни задачи вместо него.</div>
+								</div>
+							</div>
+							<div class="column">
+								<div class="card">
+									<div class="card__icon">
+										<img src="resources/ui/picture.svg" alt="vector picture">
+									</div>
+									<div class="card__title card__title_high">Социален натиск</div>
+									<div class="card__text">Манипулаторът оказва натиск върху вас чрез обкръжението, карайки ви да действате според очакванията на групата. Например, приятели могат да ви убеждават да участвате в опасно събитие, като казват, че "всички го правят".</div>
+								</div>
+							</div>
+						</div>
+						<div class="btn-container">
+							<button class="btn">
+								<a href="manipulations.html">Посмотреть больше</a>
+							</button>
+						</div>
+					</section>
+					<section class="section section__fake-recognizing">
+						<div class="section__heading-wrapper">
+							<h3 class="section__heading">Как да разпознаем фалшификат?</h3>
+						</div>
+						<div class="columns">
+							<div class="column">
+								<article class="fake-card">
+									<p class="fake-card__numeration">01.</p>
+									<h4 class="card__title">Фалшификати на снимки</h4>
+									<p class="card__text">Фалшификатите на снимки са манипулирани или подправени изображения, създадени с цел дезинформация или заблуждение. Проверка на достоверността на изображенията може да се извърши с помощта на инструменти като JPEGsnoop, онлайн услугата Reveal, Google Glass и Forensics.</p>
+								</article>
+								<img class="image__grayscale image__cover image__fake-image" src="resources/images/fake_image.png" alt="fake image">
+							</div>
+							<div class="column">
+								<img class="image__grayscale image__cover image__searching-in-archives" src="resources/images/searching_in_archives.png" alt="searching for information in internet archives">
+								<article class="fake-card">
+									<p class="fake-card__numeration">02.</p>
+									<h4 class="card__title">Търсене на информация в интернет архиви</h4>
+									<p class="card__text">Търсенето на информация в интернет архиви помага да се открият оригиналните версии на уеб страници и изображения, което може да потвърди или опровергае тяхната автентичност. Това е особено полезно при проверка на стари публикации и снимки.</p>
+								</article>
+							</div>
+							<div class="column">
+								<img class="image__grayscale image__cover image__browser_plugins" src="resources/images/browser_plugins.png" alt="browser plugins">
+								<article class="fake-card">
+									<p class="fake-card__numeration">03.</p>
+									<h4 class="card__title">Плъгини за браузъри</h4>
+									<p class="card__text">Плъгините за браузъри позволяват бърза проверка на изображения и текстове за наличие на фалшификации или манипулации директно в интернет. Те автоматизират процеса на проверка и го правят по-достъпен за потребителите.</p>
+								</article>
+							</div>
+						</div>
+						<div class="fake-recognition_ui">
+							<img src="resources/ui/ui_element.svg" alt="circle ui element">
+						</div>
+					</section>
+					<section class="section section__initiative">
+						<div class="section__heading-wrapper">
+							<h3 class="section__heading">Инициатива</h3>
+						</div>
+						<div class="columns">
+							<div class="column">
+								<div class="text-roboto-medium text-wider">Благодарим на <span class="accent-text">Министерството на външните работи на Република България</span>, което инициира този проект и пое значителна част от разходите по създаването на този сайт.</div>
+							</div>
+							<div class="column">
+								<div class="text-roboto-medium text-margin-top">Безценна помощ при предоставянето на информация за този проект ни оказаха редакцията на вестник <span class="accent-text">„Вечерна Одеса“</span>, ръководена от главния редактор Олег Суслов.</div>
+							</div>
+							<div class="column">
+								<div class="text-roboto-medium text-margin-top">
+									И Факултета по журналистика на <span class="accent-text">Одеския държавен университет Мечников</span> с ръководител доктор по социалните коммуникации, професор Елена Иванова.
+								</div>
+							</div>
+						</div>
+					</section>
+				</main>
+				<div class="columns_virtual">
+					<div class="column_virtual"></div>
+					<div class="column_virtual"></div>
+					<div class="column_virtual"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

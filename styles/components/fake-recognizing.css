@@ -1,0 +1,20 @@
+.fake-card{
+    display: flex;
+    flex-direction: column;
+    gap: var(--fake-card-gap);
+}
+
+.fake-card__numeration{
+    color: var(--accent);
+    font-family: var(--font-display), serif;
+    font-size: var(--fake-card-numeration-font-size);
+    font-weight: 700;
+    line-height: 26.66px;
+    text-align: left;
+}
+
+.fake-recognition_ui{
+    position: absolute;
+    bottom: -50px;
+    margin-left: 318px
+}

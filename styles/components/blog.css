@@ -1,0 +1,62 @@
+.blog-card{
+    width: 100%;
+}
+.blog-card:not(:last-child){
+    margin-bottom: 84px;
+}
+
+.blog-card__header{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blog-card__content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.blog-card__text{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.blog-card__title{
+    height: 86px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.4px;
+    text-align: left;
+}
+
+.blog-card__btn{
+    margin-top: 24px;
+    width: 126px;
+}
+
+.rotated-title__wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /*height: 644px;*/
+    width: 398px;
+}
+
+.rotated-title{
+    font-size: 240px;
+    font-weight: 400;
+    line-height: 240px;
+    writing-mode: tb-rl;
+    transform:rotate(180deg);
+    text-align: center;
+}

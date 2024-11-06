@@ -1,0 +1,32 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.card__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 72px;
+    border: 1px solid #AAAAAA;
+    border-radius: 32px;
+}
+.card__title{
+    font-family: var(--font-roboto), serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.4px;
+    text-align: left;
+}
+.card__title_high{
+    height: 86px;
+}
+.card__text{
+    font-family: var(--font-roboto), serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}

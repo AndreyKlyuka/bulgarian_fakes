@@ -1,0 +1,27 @@
+.header__menu{
+    display: flex;
+    height: var(--header-height);
+}
+.header__menu-element{
+    display: flex;
+    justify-content: center;
+    margin: var(--header-element-margin);
+
+    font-family: var(--font-display), serif;
+    font-size: var(--header-element-font-size);
+    font-weight: 500;
+    line-height: 32px;
+}
+.header__menu-element:hover{
+    color: var(--accent);
+    cursor: pointer;
+}
+.header__menu-element_active{
+    color: var(--accent);
+}
+.header__menu-element_active::after {
+    content: "✽";
+    color: var(--accent);
+    margin-left: 10px;
+    font-size: var(--header-element-font-size);
+}
