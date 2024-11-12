@@ -3,7 +3,7 @@
     --bg-color: #D9D9D9;
     --accent: #FF0000;
     --text: #0B0605;
-    --column-line:#AAAAAA;
+    --column-line:#AAAAAA75;
     --max-width: 1440px;
 
     /*section and heading*/
@@ -23,9 +23,12 @@
     --header-element-font-size: 24px;
 
     /*what are fakes*/
-    --text-height: 210px;
-    --text-margin-bottom: 26px;
+    --text-height: 90px;
+    --text-margin-bottom: 63px;
     --third-column-image-margin-top: 77px;
+
+    /*manipulation*/
+    --manipulation-card-gap: 16px;
 
     /*fake recognizing*/
     --fake-card-gap: 24px;

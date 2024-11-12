@@ -1,5 +1,119 @@
+.section__manipulations-introduction{
+    display: flex;
+    gap: 42px;
+    font-family: var(--font-roboto), serif;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 56px;
+}
+
+.section__manipulations-introduction-text{
+    width: 670px;
+}
+.manipulation-card{
+    display: flex;
+    flex-direction: column;
+    gap: var(--manipulation-card-gap);
+}
+
+.manipulation-card__numeration{
+    color: var(--accent);
+    font-family: var(--font-display), serif;
+    font-size: var(--fake-card-numeration-font-size);
+    font-weight: 700;
+    line-height: 26.66px;
+    text-align: left;
+}
+
+.manipulation-card__title{
+    font-family: var(--font-roboto), serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.4px;
+    text-align: left;
+}
+
+.manipulation-card__description{
+    font-family: var(--font-roboto), serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.manipulation-card .manipulation-card__description:nth-of-type(2) {
+    margin-bottom: 16px;
+}
+
+.manipulation-card__description-title{
+    font-weight: 600;
+    line-height: 19.2px;
+    text-align: left;
+}
+
+.manipulation-card__description-text{
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
 .card__column{
     display: flex;
     flex-direction: column;
-    gap: 57px
+    gap: 56px
+}
+
+.manipulation__ui{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__manipulations-row-1{
+    height: 629px;
+}
+
+.section__manipulations-row-2{
+    height: 567px;
+}
+
+.section__manipulations-row-3{
+    height: 773px;
+}
+
+.section__manipulations-row-3-image{
+    height: 2111px;
+}
+
+.section__manipulations-row-4{
+    height: 583px;
+}
+
+.section__manipulations-row-5{
+    height: 643px;
+}
+
+.section__manipulations-row-6{
+    height: 703px;
+}
+
+.section__manipulations-row-7{
+    height: 615px;
+}
+
+.section__manipulations-row-8{
+    height: 639px;
+}
+
+.section__manipulations-row-9{
+    height: 711px;
+}
+
+.section__manipulations-row-10{
+    height: 711px;
+}
+
+.section__manipulations-row-11{
+    height: 941px;
 }

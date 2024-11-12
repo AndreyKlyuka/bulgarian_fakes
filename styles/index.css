@@ -26,6 +26,7 @@ html{
         background-color: var(--accent);
         border-radius: 5px;
     }
+    scroll-behavior: smooth;
 }
 
 body{

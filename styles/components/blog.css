@@ -41,7 +41,12 @@
 
 .blog-card__btn{
     margin-top: 24px;
-    width: 126px;
+}
+
+.rotated-title__container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .rotated-title__wrapper{

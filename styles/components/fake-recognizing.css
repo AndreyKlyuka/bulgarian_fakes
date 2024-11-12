@@ -13,8 +13,9 @@
     text-align: left;
 }
 
-.fake-recognition_ui{
+.fake-recognition__ui{
     position: absolute;
     bottom: -50px;
-    margin-left: 318px
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
