@@ -1,12 +1,5 @@
-.blog-card{
-    width: 100%;
-}
-.blog-card:not(:last-child){
-    margin-bottom: 84px;
-}
-
 .blog-card__header{
-    font-family: Roboto;
+    font-family: var(--font-roboto), serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 18.75px;
@@ -20,10 +13,10 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+    font-family: var(--font-roboto), serif;
 }
 
 .blog-card__text{
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -31,8 +24,6 @@
 }
 
 .blog-card__title{
-    height: 86px;
-    font-family: Roboto;
     font-size: 32px;
     font-weight: 500;
     line-height: 38.4px;
@@ -44,17 +35,15 @@
 }
 
 .rotated-title__container{
+    height: calc(100vh - 160px - 96px);
     display: flex;
     justify-content: center;
     align-content: center;
+    position: relative;
 }
 
 .rotated-title__wrapper{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    /*height: 644px;*/
-    width: 398px;
+    position: fixed;
 }
 
 .rotated-title{
@@ -64,4 +53,98 @@
     writing-mode: tb-rl;
     transform:rotate(180deg);
     text-align: center;
+}
+
+.blog__column{
+    display: flex;
+    flex-direction: column;
+    gap: 84px
+}
+
+.section__blog-row-1{
+    height: 387px   ;
+}
+
+.section__blog-row-2{
+    height: 463px   ;
+}
+
+.blog-article{
+
+}
+
+.blog-list{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: sticky;
+    top: 40px;
+}
+
+.blog-list__title{
+    font-family: var(--font-roboto), serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+}
+
+.blog-list__items{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 8px;
+    border-left: 1px solid var(--accent);
+}
+
+.blog-list__item{
+    transition: color 0.1s ease;
+}
+
+.blog-list__item:hover{
+    color: var(--accent);
+}
+
+.blog-list__container{
+    height: 2994px;
+}
+
+.blog-article__blocks{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.blog-article__block{
+    width: 698px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.blog-article__block-title{
+    font-family: var(--font-roboto), serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.4px;
+    text-align: left;
+}
+
+
+ul {
+    list-style-type: disc;
+}
+
+li {
+    margin-left: 24px;
+}
+
+.more{
+    height: 415px;
+}
+
+.more__title{
+    font-family: var(--font-display), serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 85.31px;
 }

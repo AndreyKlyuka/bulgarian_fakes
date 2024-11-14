@@ -11,6 +11,8 @@
     font-size: var(--header-element-font-size);
     font-weight: 500;
     line-height: 32px;
+
+    transition: color 0.2s ease;
 }
 .header__menu-element:hover{
     color: var(--accent);

@@ -28,7 +28,10 @@
     position: relative;
 }
 
+.section__more{
+
+}
+
 .blog-section{
-    height: calc(100vh - 176px);
-    padding: 80px 0 0;
+    padding: 80px 0;
 }

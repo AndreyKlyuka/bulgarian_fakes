@@ -65,3 +65,21 @@
     height: 711px;
 }
 
+.image__blog-header{
+    width: 1278px;
+    height: 530px;
+}
+
+.image__fake-recognizing-mannequins{
+    object-position: 0 25%
+}
+
+.image__fake-recognizing-phone-camera{
+    width: 398px;
+    height: 580px;
+}
+
+.image__fake-recognizing-library{
+    width: 839px;
+    height: 326px;
+}
