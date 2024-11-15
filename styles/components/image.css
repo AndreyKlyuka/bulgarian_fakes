@@ -83,3 +83,15 @@
     width: 839px;
     height: 326px;
 }
+
+.image__blog-fakes-spread{
+    object-position: 0 5%
+}
+
+.image__blog-truth-vs-lies{
+    object-position: 0 5%
+}
+
+.image__blog-social-media{
+    object-position: 0 50%
+}

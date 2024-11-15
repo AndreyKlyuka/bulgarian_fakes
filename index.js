@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function changeActiveLink() {
         let index = sections.length;
 
-        while (--index && window.scrollY + 150 < sections[index].offsetTop) {}
+        while (--index && window.scrollY + 100 < sections[index].offsetTop) {}
 
         navLinks.forEach((link) => link.classList.remove("accent-text"));
         navLinks[index].classList.add("accent-text");
