@@ -2,8 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const navLinks = document.querySelectorAll(".blog-list__item a");
     const sections = document.querySelectorAll(".blog-article__block h4");
 
-    console.log(sections)
-
     function changeActiveLink() {
         let index = sections.length;
 
