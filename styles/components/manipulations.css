@@ -117,3 +117,15 @@
 .section__manipulations-row-11{
     height: 941px;
 }
+
+@media (max-width: 1280px) and (min-width: 910px) {
+    .section__manipulations-row-1{
+        height: 850px;
+    }
+}
+
+@media (max-width: 910px) {
+    .section__manipulations-row-1{
+        height: initial;
+    }
+}

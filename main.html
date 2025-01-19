@@ -30,7 +30,7 @@
 			<div class="container">
 				<header class="header">
 					<nav class="header__nav">
-						<ul class="header__menu columns">
+						<ul class="header__menu columns columns-unchange">
 							<li class="header__menu-element header__menu-element_active column">Начална страница</li>
 							<li class="header__menu-element column">
 								<a href="blog.html">Блог</a>
@@ -48,10 +48,9 @@
 						</div>
 						<div class="section__header__content">
 							<div class="columns">
-								<div class="column">
+								<div class="column column__two">
 									<p class="section__header__text text-roboto-medium">Съдържа материали и методики, които ще ви помогнат в борбата с дезинформацията, ще ви научат на информационна грамотност. Научете се да различавате истината от измислицата в бурния поток от новини, да устоявате на изтънчените онлайн манипулации и да изграждате собствено световъзприятие. Надяваме се, че материалите, които ще откриете тук, ще бъдат полезни за вас. <br> С уважение, екипът на ВОО „Конгрес на българите в Украйна“</p>
 								</div>
-								<div class="column"></div>
 								<div class="column section__header__ui-container">
 									<img class="ui-element" src="resources/ui/ui_element.svg" alt="circle ui element">
 								</div>
@@ -60,8 +59,18 @@
 					</section>
 					<section class="section section__what-is-fake">
 						<div class="columns">
-							<div class="column">
+							<div class="column column__two">
 								<h2 class="section__heading_main">Какво е <span class="accent-text">„Фейк“</span>?</h2>
+							</div>
+							<div class="column">
+								<div class="position__third-column-margin-image" >
+									<img class="image__cover image__internet" src="resources/images/internet.png" alt="red internet street sign">
+								</div>
+							</div>
+
+						</div>
+						<div class="columns up-to-heading">
+							<div class="column">
 								<p class="text-roboto-medium">От английската дума fake – фалшив. По отношение на информацията това са неверни, недостоверни, фалшифицирани новини, които източникът на тяхното разпространение представя като истинска и достоверна информация с цел да заблуди потребителя и да му повлияе по необходимия начин.</p>
 							</div>
 							<div class="column">
@@ -73,9 +82,6 @@
 								</div>
 							</div>
 							<div class="column">
-								<div class="position__third-column-margin-image" >
-									<img class="image__cover image__internet" src="resources/images/internet.png" alt="red internet street sign">
-								</div>
 							</div>
 						</div>
 					</section>
@@ -170,7 +176,7 @@
 								</article>
 							</div>
 						</div>
-						<div class="btn-container btn-container_left">
+						<div class="btn-container btn-container_left btn-fake-recognition">
 							<a href="blog/fake-recognizing.html" role="button" class="btn btn__detail">
 								Виж повече
 							</a>

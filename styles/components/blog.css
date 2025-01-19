@@ -152,3 +152,11 @@ li {
     font-weight: 700;
     line-height: 85.31px;
 }
+
+@media (max-width: 1280px) and (min-width: 910px) {
+
+}
+
+@media (max-width: 910px) {
+
+}

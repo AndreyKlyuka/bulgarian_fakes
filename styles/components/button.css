@@ -40,5 +40,15 @@
 }
 
 .btn__to-manipulation{
-    margin-top: 56px;
+    margin-top: 36px;
+}
+
+@media (max-width: 1280px) and (min-width: 910px) {
+
+}
+
+@media (max-width: 910px) {
+    .btn-fake-recognition{
+        margin-top: 24px;
+    }
 }

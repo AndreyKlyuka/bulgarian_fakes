@@ -20,3 +20,11 @@
 .accent-text{
     color: var(--accent);
 }
+
+@media (max-width: 1280px) and (min-width: 910px) {
+
+}
+
+@media (max-width: 910px) {
+
+}

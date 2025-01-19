@@ -25,7 +25,7 @@
 .image__searching-in-archives{
     width: 398px;
     height: 215px;
-    margin-bottom: 154px
+    margin-bottom: 145px
 }
 
 .image__browser_plugins{
@@ -94,4 +94,56 @@
 
 .image__blog-social-media{
     object-position: 0 50%
+}
+
+@media (max-width: 1280px) and (min-width: 910px) {
+    .image__cover{
+        width: 278px
+    }
+
+    .image__internet{
+        height: 297px;
+    }
+
+    .image__newspaper{
+        height: 193px;
+    }
+
+    .image__searching-in-archives{
+        height: 151px;
+    }
+
+    .image__browser_plugins{
+        height: 376.65px;
+    }
+
+    .image__fake-image{
+        margin-top: 92px;
+        height: 166.4px;
+    }
+}
+
+@media (max-width: 910px) {
+
+    .image__cover{
+        width: 100%;
+    }
+
+    .image__internet{
+        height: 369px;
+    }
+
+    .image__fake-image{
+        margin-top: 0;
+    }
+
+    .image__searching-in-archives{
+        display: none;
+    }
+
+    .image__browser_plugins{
+        height: 540px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }

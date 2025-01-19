@@ -29,3 +29,54 @@
     border-left: 1px solid var(--column-line);
     z-index: -1;
 }
+
+@media (max-width: 1280px) and (min-width: 910px) {
+    .columns_virtual{
+        gap: 22px;
+    }
+
+    .column_virtual{
+        width: 278px;
+    }
+
+    .columns{
+        gap: 22px;
+    }
+    .column{
+        width: 278px;
+    }
+
+    .column__two{
+        width: 578px;
+    }
+}
+
+@media (max-width: 910px) {
+    .column_virtual{
+        width: 100%;
+    }
+
+    .columns{
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .column{
+        width: initial;
+    }
+
+    .columns.columns-unchange{
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 16px;
+
+    }
+
+    .column_virtual:not(:first-child) {
+        display: none;
+    }
+
+    .column:has(.image__internet) {
+        order: 1;
+    }
+}

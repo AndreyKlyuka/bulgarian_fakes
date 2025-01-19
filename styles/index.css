@@ -1,50 +1,13 @@
 @import "variables.css";
+@import "components/common.css";
 @import "components/columns.css";
 @import "components/header.css";
 @import "components/what-are-fakes.css";
-
 @import "components/fake-recognizing.css";
-@import "components/initiative.css";
 @import "components/manipulations.css";
-
 @import "components/card.css";
 @import "components/button.css";
 @import "components/text.css";
 @import "components/blog.css";
 @import "components/section.css";
 @import "components/image.css";
-
-*{
-    box-sizing: border-box;
-    /*todo - check if broken paddings*/
-}
-html{
-    ::-webkit-scrollbar {
-        width: 2px;
-        height: 2px;
-    }
-    ::-webkit-scrollbar-track {
-        background: transparent;
-    }
-    ::-webkit-scrollbar-thumb {
-        background-color: var(--accent);
-        border-radius: 5px;
-    }
-    scroll-behavior: smooth;
-}
-
-body{
-    background-color: var(--bg-color);
-}
-
-.wrapper{
-    margin: 0 auto;
-    max-width: var(--max-width);
-    display: flex;
-    justify-content: center;
-}
-
-.container{
-    position: relative;
-    width: 1280px;
-}

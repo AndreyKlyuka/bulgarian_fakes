@@ -27,3 +27,18 @@
     margin-left: 10px;
     font-size: var(--header-element-font-size);
 }
+
+@media (max-width: 1280px) and (min-width: 910px) {
+
+}
+
+@media (max-width: 910px) {
+    .header__menu{
+        height: 53px;
+    }
+    .header__menu-element{
+        font-size: 16px;
+        line-height: 21.33px;
+        margin: 16px 0;
+    }
+}

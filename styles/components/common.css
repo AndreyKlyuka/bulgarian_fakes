@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    ::-webkit-scrollbar {
+        width: 2px;
+        height: 2px;
+    }
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--accent);
+        border-radius: 5px;
+    }
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+.wrapper{
+    margin: 0 auto;
+    /*max-width: var(--max-width);*/
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    position: relative;
+    width: 1280px;
+}
+
+@media (max-width: 1280px) and (min-width: 910px) {
+    .container{
+        width: 878px;
+    }
+
+}
+
+@media (max-width: 910px) {
+    .container{
+        width: calc(100% - 32px);
+    }
+
+}
