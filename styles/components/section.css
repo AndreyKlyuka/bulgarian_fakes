@@ -98,8 +98,8 @@
     }
 
     .section__heading{
-        font-size: 52px;
-        line-height: 62.4px;
+        font-size: 32px;
+        line-height: 40px;
     }
 
     .section__heading_main{
@@ -119,6 +119,4 @@
     .blog-section{
         padding: 16px 0 32px 0;
     }
-
-
 }
