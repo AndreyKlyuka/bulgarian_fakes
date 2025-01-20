@@ -42,6 +42,7 @@ body{
 @media (max-width: 910px) {
     .container{
         width: calc(100% - 32px);
+        hyphens: auto;
     }
 
 }

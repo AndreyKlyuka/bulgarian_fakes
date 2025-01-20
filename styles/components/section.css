@@ -66,6 +66,11 @@
         padding: 16px 0;
     }
 
+    .section__heading{
+        font-size: 52px;
+        line-height: 62.4px;
+    }
+
     .section__heading-wrapper{
         padding: 24px 0;
     }
@@ -76,6 +81,10 @@
 
     .section__header__ui-container{
         display: none;
+    }
+
+    .blog-section{
+        padding: 40px 0;
     }
 }
 
@@ -89,8 +98,8 @@
     }
 
     .section__heading{
-        font-size: 48px;
-        font-weight: 400;
+        font-size: 52px;
+        line-height: 62.4px;
     }
 
     .section__heading_main{
@@ -106,5 +115,10 @@
     .section__header__title h1{
         padding: 16px 0;
     }
+
+    .blog-section{
+        padding: 16px 0 32px 0;
+    }
+
 
 }

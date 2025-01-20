@@ -58,7 +58,7 @@
 
     .columns{
         flex-direction: column;
-        gap: 32px;
+        gap: 24px;
     }
 
     .column{
@@ -78,5 +78,9 @@
 
     .column:has(.image__internet) {
         order: 1;
+    }
+
+    .column__mobile-none{
+        display: none;
     }
 }
